@@ -1,0 +1,53 @@
+baseURL = 'https://malcedon.github.io/'
+languageCode = 'en-us'
+title = 'Δαίδαλος'
+theme = 'hugo-xmin'
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents = "↩"
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 4
+
+[[menu.main]]
+name = "Posts"
+url = "post/"
+
+[[menu.main]]
+name = "Subscribe"
+url = "index.xml"
+
+
+[params]
+description = "Δαίδαλος magic theory"
+footer = "&copy; 2025 Δαίδαλος | [Twitter](https://x.com/malcedon) | [GitHub](https://github.com/malcedon/)"
+
+[markup]
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [["\\[", "\\]"], ["$$", "$$"]]
+inline = [["\\(", "\\)"]]
