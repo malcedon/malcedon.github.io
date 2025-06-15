@@ -6,6 +6,49 @@
     <description>Recent content in Home on Δαίδαλος</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on Classical Probability</title>
+      <link>http://localhost:1313/post/2023/06/16/notes-on-classical-probability/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023/06/16/notes-on-classical-probability/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This post is not complete. It is a work in progress.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Notes on Measure Theory</title>
+      <link>http://localhost:1313/post/2023/06/16/notes-on-measure-theory/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023/06/16/notes-on-measure-theory/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This post is not complete. It is a work in progress.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Notes on Real Analysis</title>
+      <link>http://localhost:1313/post/2023/06/16/notes-on-real-analysis/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023/06/16/notes-on-real-analysis/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This post is not complete. It is a work in progress.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Notes on Topology</title>
+      <link>http://localhost:1313/post/2023/06/16/notes-on-topology/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023/06/16/notes-on-topology/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This post is not complete. It is a work in progress.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Vandermonde&#39;s Identity</title>
+      <link>http://localhost:1313/post/2023/06/16/vandermondes-identity/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023/06/16/vandermondes-identity/</guid>
+      <description>&lt;p&gt;In this post, I will give a short sketch of a proof of Vandermonde&amp;rsquo;s identity, which states that for non-negative integers \( m \), \( n \), and \( r \):&lt;/p&gt;&#xA;\[&#xA;  \binom{m+n}{r} = \sum_{k=0}^{r} \binom{m}{k} \binom{n}{r-k}&#xA;\]&lt;h2 id=&#34;my-sketch-of-the-proof&#34;&gt;My sketch of the proof&lt;/h2&gt;&#xA;&lt;p&gt;Consider a box containing \( m+n \) balls, of which \( m \) are red and \( n \) are blue. We want to choose \( r \) balls from this box. The left-hand side counts the number of ways to choose \( r \) balls from \( m+n \) total balls. And the right-hand side counts the number of ways to choose \( r \) balls by first choosing \( k \) red balls (where \( k \) can range from \( 0 \) to \( r \)), and then choosing the remaining \( r-k \) balls from the \( n \) blue balls.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>http://localhost:1313/post/1/01/01/lorem-ipsum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/1/01/01/lorem-ipsum/</guid>
+      <description>&lt;h1 id=&#34;lorem-ipsum-test&#34;&gt;Lorem Ipsum Test&lt;/h1&gt;&#xA;&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lorem ipsum&lt;/strong&gt; dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;&#xA;&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;List item 1&lt;/li&gt;&#xA;&lt;li&gt;List item 2&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Nested item&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;List item 3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Blockquote: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;code&gt;Inline code&lt;/code&gt; and a code block:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def hello_world():&#xA;    print(&amp;quot;Lorem ipsum&amp;quot;)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ordered list&lt;/li&gt;&#xA;&lt;li&gt;Second item&lt;/li&gt;&#xA;&lt;li&gt;Third item&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;, &lt;em&gt;italic text&lt;/em&gt;, &lt;del&gt;strikethrough&lt;/del&gt;, and &lt;a href=&#34;https://example.com&#34;&gt;a link&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

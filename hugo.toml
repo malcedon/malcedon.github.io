@@ -6,6 +6,9 @@ theme = 'hugo-xmin'
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 
+[permalinks]
+post = "/post/:year/:month/:day/:slug/"
+
 [menu]
 
 [[menu.main]]

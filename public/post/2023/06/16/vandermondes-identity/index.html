@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Posts | Δαίδαλος</title>
+    <title>Vandermonde&#39;s Identity | Δαίδαλος</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -27,48 +27,20 @@
     <hr/>
     </nav>
 
+<div class="article-meta">
+<h1><span class="title">Vandermonde&rsquo;s Identity</span></h1>
+<h2 class="author">Δαίδαλος</h2>
+<h2 class="date">2023/06/16</h2>
+</div>
 
+<main>
+<p>In this post, I will give a short sketch of a proof of Vandermonde&rsquo;s identity, which states that for non-negative integers \( m \), \( n \), and \( r \):</p>
+\[
+  \binom{m+n}{r} = \sum_{k=0}^{r} \binom{m}{k} \binom{n}{r-k}
+\]<h2 id="my-sketch-of-the-proof">My sketch of the proof</h2>
+<p>Consider a box containing \( m+n \) balls, of which \( m \) are red and \( n \) are blue. We want to choose \( r \) balls from this box. The left-hand side counts the number of ways to choose \( r \) balls from \( m+n \) total balls. And the right-hand side counts the number of ways to choose \( r \) balls by first choosing \( k \) red balls (where \( k \) can range from \( 0 \) to \( r \)), and then choosing the remaining \( r-k \) balls from the \( n \) blue balls.</p>
 
-<h1>Posts</h1>
-
-
-
-
-<ul>
-  
-  
-  
-  <li>
-    <span class="date">2023/06/16</span>
-    <a href="/post/2023/06/16/notes-on-classical-probability/">Notes on Classical Probability</a>
-  </li>
-  
-  <li>
-    <span class="date">2023/06/16</span>
-    <a href="/post/2023/06/16/notes-on-measure-theory/">Notes on Measure Theory</a>
-  </li>
-  
-  <li>
-    <span class="date">2023/06/16</span>
-    <a href="/post/2023/06/16/notes-on-real-analysis/">Notes on Real Analysis</a>
-  </li>
-  
-  <li>
-    <span class="date">2023/06/16</span>
-    <a href="/post/2023/06/16/notes-on-topology/">Notes on Topology</a>
-  </li>
-  
-  <li>
-    <span class="date">2023/06/16</span>
-    <a href="/post/2023/06/16/vandermondes-identity/">Vandermonde&rsquo;s Identity</a>
-  </li>
-  
-  <li>
-    <span class="date">0001/01/01</span>
-    <a href="/post/1/01/01/lorem-ipsum/">Lorem Ipsum</a>
-  </li>
-  
-</ul>
+</main>
 
   <footer>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
